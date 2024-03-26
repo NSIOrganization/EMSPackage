@@ -5,6 +5,6 @@ namespace EMSPackage.Sdk.Dto;
 
 public interface IEmsApi
 {
-    [Post("/webhook/CategoryWebhook/CreateCategory")]
+    [Post("/webhook/ReservationWebhook/CreateReservation")]
     public Task<EmsCreateReservationResponseDto> CreateProductAsync(EmsCreateReservationRequestDto request, [HeaderCollection] IDictionary<string, string> headers);
 }
