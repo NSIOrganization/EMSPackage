@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMSPackage.Sdk", "EMSPackage.Sdk\EMSPackage.Sdk.csproj", "{1F01F567-98A6-4683-A666-009239C5C582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMSPackage.Application", "EMSPackage.Application\EMSPackage.Application.csproj", "{88E2DCCF-ED05-4FC6-A5A3-1C767B7336B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F01F567-98A6-4683-A666-009239C5C582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F01F567-98A6-4683-A666-009239C5C582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F01F567-98A6-4683-A666-009239C5C582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F01F567-98A6-4683-A666-009239C5C582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E2DCCF-ED05-4FC6-A5A3-1C767B7336B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E2DCCF-ED05-4FC6-A5A3-1C767B7336B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E2DCCF-ED05-4FC6-A5A3-1C767B7336B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E2DCCF-ED05-4FC6-A5A3-1C767B7336B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
