@@ -7,7 +7,7 @@ public record EmsReservationRequestModel(
     DateTime ReservationDate,
     decimal Price,
     bool hasCupon,
-    Guid EventId,
+    List<Guid> EventIds,
     string UserId,
     string BaseUrl,
     IDictionary<string, string> Headers)
@@ -19,7 +19,7 @@ public record EmsReservationRequestModel(
     {
         decimal adjustedPrice = hasCupon ? Price * 0.5m : Price;
 
-        return new EmsCreateReservationRequestDto(new EmsCreateReservationDto(ReservationDate, adjustedPrice, hasCupon, EventId,
+        return new EmsCreateReservationRequestDto(new EmsCreateReservationDto(ReservationDate, adjustedPrice, hasCupon, EventIds,
             UserId));
     }
 }
