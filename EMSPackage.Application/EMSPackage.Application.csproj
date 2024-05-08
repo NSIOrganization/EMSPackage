@@ -5,13 +5,19 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>EMSPackage.Application</PackageId>
-        <Version>0.0.6</Version>
+        <Version>0.0.8</Version>
         <Authors>Dz0nz1</Authors>
         <Company>EMS Company</Company>
         <PackageDescription>
             SDK for Event management system application
         </PackageDescription>
         <PackageReleaseNotes>
+            v.0.0.8
+            - Changed EventIds to List of strings
+
+            v.0.0.7
+            - 
+            
             v.0.0.6
             - Added request body to CreateReservationAsync method
             
