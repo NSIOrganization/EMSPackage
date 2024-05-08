@@ -7,7 +7,7 @@ public record EmsReservationRequestModel(
     DateTime ReservationDate,
     decimal Price,
     bool hasCupon,
-    List<Guid> EventIds,
+    List<string> EventIds,
     string UserId,
     string BaseUrl,
     IDictionary<string, string> Headers)
