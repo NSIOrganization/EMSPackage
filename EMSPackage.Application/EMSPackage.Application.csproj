@@ -5,13 +5,16 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <PackageId>EMSPackage.Application</PackageId>
-        <Version>0.0.8</Version>
+        <Version>0.0.9</Version>
         <Authors>Dz0nz1</Authors>
         <Company>EMS Company</Company>
         <PackageDescription>
             SDK for Event management system application
         </PackageDescription>
         <PackageReleaseNotes>
+            v.0.0.9
+            - Changed hasCoupon property to HasCoupon
+
             v.0.0.8
             - Changed EventIds to List of strings
 

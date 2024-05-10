@@ -6,7 +6,7 @@ namespace EMSPackage.Application.Models;
 public record EmsReservationRequestModel(
     DateTime ReservationDate,
     decimal Price,
-    bool hasCupon,
+    bool HasCupon,
     List<string> EventIds,
     string UserId,
     string BaseUrl,
@@ -17,9 +17,9 @@ public record EmsReservationRequestModel(
     
     public EmsCreateReservationRequestDto ToDto()
     {
-        decimal adjustedPrice = hasCupon ? Price * 0.5m : Price;
+        decimal adjustedPrice = HasCupon ? Price * 0.5m : Price;
 
-        return new EmsCreateReservationRequestDto(new EmsCreateReservationDto(ReservationDate, adjustedPrice, hasCupon, EventIds,
+        return new EmsCreateReservationRequestDto(new EmsCreateReservationDto(ReservationDate, adjustedPrice, HasCupon, EventIds,
             UserId));
     }
 }
